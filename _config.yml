@@ -1,8 +1,8 @@
 # Current event month
 event:
-  month: 2019-02
-  title: February Event - Ignite Talks Chicago
-  alert: "February Super Early Bird tickets already sold out! Get those Early Bird tix before they are gone too!"
+  month: 2019-03
+  title: March Event - Ignite Talks Chicago
+  alert: "March Super Early Bird tickets already sold out! Get those Early Bird tix before they are gone too!"
 
 collections:
   events:
