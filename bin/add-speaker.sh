@@ -34,7 +34,6 @@ fi
 COMMIT_MESSAGE="$DATE: adding $NAME."
 
 FILE=$(readlink -f "$FILE")
-# stat "$FILE"
 
 # Lowercase
 CLEAN_NAME=$(tr "[:upper:]" "[:lower:]" <<< "$NAME")
@@ -60,6 +59,7 @@ cat << EOF >> "_data/$DATE/speakers.yml"
 EOF
 
 # Create folder if missing
+rm -rf "$DIRECTORY"
 mkdir -p "$DIRECTORY"
 
 # Create a 1000x1000 pixel center cropped 72ppi image from the original
@@ -85,10 +85,9 @@ convert "$FILE" \
     "$DIRECTORY/$CLEAN_NAME.jpg"
 
 # Compress the images
-imageoptim -a -s -q -d "$DIRECTORY"
+imageoptim "$DIRECTORY"
 
 git add -A
 git commit -am "$COMMIT_MESSAGE"
 git push -u origin "$DATE/$CLEAN_NAME"
 hub pull-request -m "$COMMIT_MESSAGE"
-
