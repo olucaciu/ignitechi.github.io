@@ -2,7 +2,7 @@
 event:
   month: 2019-03
   title: March Event - Ignite Talks Chicago
-  alert: "March Super Early Bird tickets already sold out! Get those Early Bird tix before they are gone too!"
+  alert: "March event is only a day away! Get those tickets before they sell out."
 
 collections:
   events:
