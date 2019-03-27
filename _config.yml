@@ -1,8 +1,8 @@
 # Current event month
 event:
-  month: 2019-03
-  title: March Event - Ignite Talks Chicago
-  alert: "March event is only a day away! Get those tickets before they sell out."
+  month: 2019-04
+  title: April Event - Ignite Talks Chicago
+  alert: ""
 
 collections:
   events:
