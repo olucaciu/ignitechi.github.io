@@ -70,7 +70,7 @@ convert "$FILE" \
     "$DIRECTORY/$CLEAN_NAME.jpg"
 
 # Compress the images
-imageoptim "$DIRECTORY"
+tinypng "$DIRECTORY"
 
 git add -A
 git commit -am "$COMMIT_MESSAGE"
