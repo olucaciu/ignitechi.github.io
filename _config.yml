@@ -19,6 +19,7 @@ url: "https://ignitechi.org"
 domain: "ignitechi.org"
 author: "Ignite Chicago <info@ignitechi.org>"
 email: info@ignitechi.org
+repository: ignitechi/ignitechi.github.io
 
 google:
   analytics: "UA-82039600-2"
@@ -73,6 +74,5 @@ exclude:
 include:
   - "_pages"
 
-timezone: America/Chicago
+# timezone: America/Chicago
 encoding: utf-8
-
