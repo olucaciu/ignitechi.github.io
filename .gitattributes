@@ -1,3 +1,0 @@
-assets/img/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-assets/img/**/*.png filter=lfs diff=lfs merge=lfs -text
-assets/img/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
