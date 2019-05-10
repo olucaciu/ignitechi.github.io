@@ -206,6 +206,10 @@
     filter: grayscale(100%);
 }
 
+.speakers .speakers-wrap .speaker .image:hover {
+    filter: grayscale(0);
+}
+
 .speakers .speakers-wrap .speaker .image img {
     width: 100%;
     height: auto;
@@ -273,6 +277,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 25px 35px 25px 35px;
@@ -521,7 +526,7 @@
 
 
 
-/* 
+/*
 *
 *
 *
