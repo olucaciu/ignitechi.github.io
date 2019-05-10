@@ -1,0 +1,78 @@
+# Current event month
+event:
+  month: 2019-05
+  title: "May 2019 Event - Ignite Talks Chicago"
+  alert: "Super Early Bird tickets are for sale now. Get them before they sell out!"
+
+collections:
+  events:
+    output: true
+    permalink: "/events/:path/"
+
+# Site settings
+title: "Ignite Talks Chicago"
+description: "Ignite is a high-energy evening of 5-minute talks by people who have a burning idea—and the guts to get onstage and share it with their hometown crowd."
+keywords: "ignite,chicago,talk,talks,ignite talks, ignite chicago, ignitchi"
+#baseurl: "/ignitechi.org/"
+baseurl: "/"
+url: "https://ignitechi.org"
+domain: "ignitechi.org"
+author: "Ignite Chicago <info@ignitechi.org>"
+email: info@ignitechi.org
+
+google:
+  analytics: "UA-82039600-2"
+  verification: "DXUomMjbsv0tkik1NgmInU_JpaP34IqzfEUsE4YSWC4"
+
+facebook:
+  url: "https://ignitechi.org/"
+  type: "website"
+  title: "Ignite Chicago"
+  description: "Ignite is a high-energy evening of 5-minute talks by people who have a burning idea—and the guts to get onstage and share it with their hometown crowd."
+  image: "https://ignitechi.org/assets/img/logo-1200.png"
+  username: "ignitechicago"
+
+twitter:
+  username: "IgniteChi"
+  card: "summary_large_image"
+  site: "@ignitechicago"
+  title: "Ignite Chicago"
+  description: "Ignite is a high-energy evening of 5-minute talks by people who have a burning idea—and the guts to get onstage and share it with their hometown crowd."
+  image: "https://ignitechi.org/assets/img/logo.png"
+
+github:
+  username: IgniteChi
+
+# Default paths
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/img/gallery/full"
+    values:
+      gallery: true
+
+# Build settings
+plugins:
+  - jekyll-redirect-from
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - CNAME
+  - "*.sh"
+  - readme.md
+  - .DS_Store
+
+include:
+  - "_pages"
+
+timezone: America/Chicago
+encoding: utf-8
+

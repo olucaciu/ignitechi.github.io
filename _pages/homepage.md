@@ -1,0 +1,4 @@
+---
+layout: site
+permalink: /
+---
